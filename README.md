@@ -44,6 +44,7 @@ I would like to add some screenshots of CRUD operation of this API performed usi
 
 ```
 #1.POST method - Creating an object
+#http://127.0.0.1:8000/api/employee/ 
 
 ![image](https://user-images.githubusercontent.com/65334844/204043512-b663c477-9271-483d-98a1-4762a4febab6.png)
 
