@@ -85,6 +85,8 @@ WSGI_APPLICATION = 'CRUD_API.wsgi.application'
 #     }
 # }
 
+
+
 # settings.py
 # DATABASES = {
 #     'default': {
