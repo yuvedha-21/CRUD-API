@@ -1,5 +1,60 @@
 # CRUD-API
 
+I used the existing repo and made changes in the database settings for all three DB's postgres,SQL,MangoDB.
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'crud',
+        'USER':'postgres',
+        'PASSWORD':'<password>',
+        'HOST':'localhost'
+    }
+}
+```
+![image](https://user-images.githubusercontent.com/65334844/206120728-1c8517ea-a3c2-4fce-83a5-365e7be61169.png)
+
+```
+# settings.py
+DATABASES = {
+    'default': {
+        'ENGINE': 'mssql',
+        'NAME': 'crud',
+        'USER': 'sa',
+        'PASSWORD': '<password>',
+        'HOST': 'DESKTOP-T569UCT\\UV',
+        'PORT': '',
+
+        'OPTIONS': {
+            'driver': 'ODBC Driver 17 for SQL Server',
+        },
+    },
+}
+```
+
+
+![image](https://user-images.githubusercontent.com/65334844/206159863-7972541c-8f0a-4886-a61d-0e3629cee2f6.png)
+
+
+
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'djongo',
+        'NAME': 'crud',
+        
+    },
+}
+
+```
+
+![image](https://user-images.githubusercontent.com/65334844/206376534-1ff0b31a-a430-4002-93bc-b5a9feacbeb8.png)
+
+
+# --------------------edited 07/12/2022-------------------------------
+
+
+
 ![image](https://user-images.githubusercontent.com/65334844/204044863-710c40bd-6b14-487c-8135-865fdb13a9f6.png)
 ```
 An API returns a JSON which is a common format. You can see all of the information surrounded with quotation marks, {},[], and descriptive titles of each bit of code.
